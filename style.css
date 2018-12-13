@@ -1,0 +1,100 @@
+*{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Gill Sans", serif;
+  text-align: center;
+  background-color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#aboutHeader{
+  font-family: "Nanum Pen Script Regular", serif;
+  font-size: 50px;
+}
+
+#bodyText{
+  text-align: justify;
+}
+
+#homePhoto{
+  max-width: 40%;
+  max-height: 40%;
+}
+
+#photo{
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: auto;
+}
+
+#posterPhoto{
+  max-width: 30%;
+  max-height: 30%;
+}
+
+
+.container{
+  position: relative;
+  /* width: 100px; */
+  /* border: 1px solid black; */
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* width: 50%; */
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  /* transform: translate(48.35%, 0%); */
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.text{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+#footer{
+  position: fixed:
+  left: 0;
+  bottom: 0;
+  text-align: left;
+}
+
+/* background animation */
+/* @keyframes animatedBackground {
+  from {background-position: 0 0;}
+  to {background-position: 100% 0;}
+}
+
+#animate-area{
+  width: 560px;
+  height: 400px;
+  background-image: url(bg-clouds.png);
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+
+  animation: animatedBackground 40s linear infinite;
+} */
